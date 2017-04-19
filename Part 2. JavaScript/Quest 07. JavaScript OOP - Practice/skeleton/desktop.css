@@ -1,1 +1,51 @@
 /* TODO: 자유롭게 바탕화면 시스템의 CSS를 만들어 보세요! */
+
+body {
+	background-image: url(http://www.planwallpaper.com/static/images/Fall-Nature-Background-Pictures.jpg);
+}
+
+.icon {
+	width: 50px;
+	height: 70px;
+	padding: 5px;
+	position: absolute;
+}
+
+.icon img {
+	width: 40px;
+	height: 40px;
+	padding: 5px;
+}
+
+.icon p {
+	color: white;
+	text-shadow: 1px 1px 1px black;
+	text-align: center;
+	margin: 0;
+}
+
+.window {
+	width: 798px;
+	height: 527px;
+	position: absolute;
+	background-image: url(http://10629-presscdn-0-58.pagely.netdna-cdn.com/wp-content/pictures/2012/10/Recycle-Bin-Empty.png);
+}
+
+.window p {
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	top: 5px;
+	left: 10px;
+	color: white;
+}
+
+.window button {
+	width: 50px;
+	height: 20px;
+	position: absolute;
+	top: 2px;
+	left: 740px;
+	background-color: transparent;
+	border: none;
+}
